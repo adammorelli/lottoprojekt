@@ -1,8 +1,14 @@
-#felso
+#felso{
+    height: 40%;
+    background-image: url(hatter.jpg) ;
+}
 
 
 
-#also
+#also{
+    background-color: rgb(36, 33, 33);
+    color: white;
+}
 
 
 
