@@ -1,46 +1,43 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
-h2{
-    text-align: left;
-    margin-left: 90px;
-    font-size: 35px;
-}
-
-#jobboldal{
-    float: right;
-    width: 70%;
-    margin: auto;
-    text-align: center;
-}
-#jobboldal h1{
-    text-align: left;
-    margin-left: 90px;
-    font-size: 40px;
-    font-weight: bold;
-}
-#baloldal p{
-    font-size: 17px;
-    margin-left: 30px;
-}
-#baloldal{
-    width: 30%;
-    min-height: 100%;
-    height: 100%;
-    background-color: rgb(91, 102, 125);
-    color: white;
+.bal{
+    width: 450px;
+    border: 5px;
     float: left;
 }
-#lottokepek{
-    margin-right: 50px;
+.jobb{
+    width: 600px;
+    float: right;
+    border-radius: 5px;
 }
-#lottokepek img{
-    height: 50px;
+.belso{
+    color: darkslategray;
+    background-color: rgb(37, 35, 35);
+    width: 450px;
+    border: 5px;
+    float: left;
 }
 hr{
-    width: 90%;
-    border-color: rgb(95, 95, 95);
+    color: black;
 }
-#baloldal img{
-    width: 100%;
+#lotto{
+    text-align: center;
+    background-image: url(hatter.jpg);
+    height: 450px;
+    background-position: center ;
+    padding-top: 5px;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+img{
+    height: 135px;
+    width: 135px;
 }
