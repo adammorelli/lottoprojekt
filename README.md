@@ -1,2 +1,2 @@
 # lottoprojekt
-file:///E:/git%20files/lottoprojekt/leghasonlobb.html
+https://adammorelli.github.io/lottoprojekt/
