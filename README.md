@@ -1,3 +1,3 @@
 # lottoprojekt
 https://adammorelli.github.io/lottoprojekt/
-https://adammorelli.github.io/index.html
+https://adammorelli.github.io/index.html/
