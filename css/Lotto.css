@@ -1,47 +1,84 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-}
-.bal{
-    width: 450px;
-    border: 5px;
-    float: left;
-}
-.jobb{
-    width: 600px;
-    float: right;
-    border-radius: 5px;
-}
-.belso{
-    color: darkslategray;
-    background-color: rgb(37, 35, 35);
-    width: 450px;
-    border: 5px;
-    float: left;
-}
-hr{
-    color: black;
-}
-#lotto{
-    text-align: center;
-    background-image: url(hatter.jpg);
-    height: 450px;
-    background-position: center ;
-    padding-top: 5px;
-}
-h1{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-}
-h2{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+html {height: 100%;}
 
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    height: 100%;
 }
-img{
-    height: 135px;
-    width: 135px;
+
+
+#jobb
+{
+    width: 70%;
+    float: right;
+    margin: auto;
+    
 }
-img{
-  width: 60px;
-  height: 60px;
+#jobb h1 {font-size: 60px;}
+#jobb * {
+    margin-left: 100px;
+}
+
+#bal
+{
+    width: 30%;
+    height: 100%;
+    background-color: rgb(96, 105, 114);
+    float: left;
+    line-height: 30px;
+}
+
+#bal h2
+{
+    font-size: 17px;
+    margin-left: 30px;
+}
+
+#bal img {width: 100%;}
+#bal ul li a {
+    text-decoration: none;
+    color: white;
+}
+h2
+{
+    text-align: left;
+    margin-left: 50px;
+    font-size: 35px;
+}
+hr
+{
+    width: 90%;
+    border-color: grey;
+}
+
+.golyo 
+{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    background-size: 100px;
+    background-repeat: no-repeat;
+}
+.golyo-piros 
+{
+    background-image: url("../kepek/kek.png");
+}
+.golyo-narancs 
+{
+    background-image: url("../kepek/lila.png");
+}
+.golyo-zold 
+{
+    background-image: url("../kepek/zold.png");
+}
+.golyo-kek 
+{
+    background-image: url("../kepek/sarga.png");
+}
+.golyo-lila 
+{
+    background-image: url("../kepek/piros.png");
 }
