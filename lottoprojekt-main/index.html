@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Lotto.css">
+    <link rel="stylesheet" href="lotto1.css">
     <title>Lottó</title>
 </head>
 <body>
-    <div id="jobboldal">
+    <div id="jobb">
         <h1>Korábbi sorsolások</h1>
 
         <h2>Az előző heti nyerőszámok</h2>
 
         <div id="lottokepek">
-            <img src="kek.png" alt="kek">
+            <td <img src="kek.png" alt="kek">
             <img src="lila.png" alt="18">
             <img src="piros.png" alt="28">
             <img src="sarga.png" alt="38">
@@ -32,15 +32,19 @@
         </div>
     </div>
 
-    <div id="baloldal">
-        <img src="Lottokep.png">
-        <p>Korábbi sorsolások</p><hr>
-        <p>Leggyakoribb számok</p><hr>
-        <a href="leghasonlobb.html"><p>Leghasonlóbb számsorok</p></a><hr>
-        <p>Leghosszabb sorozatok számsorokban</p><hr>
-        <a href="legkisebb_osszegu.html"><p>Legkisebb összegű számsorok</p></a><hr>
-        <p>Grafikonok</p><hr>
-        <p>Érdekes történetek</p>
+<div id="bal">
+    <div id="hatter">
+        <img src="kepek/golyo_hatter.png">
     </div>
+    <ul style="list-style-type:none;">
+        <li><a href="index.html">Korábbi sorsolások</a></li>
+        <hr><li><a href="leggyakszamok.html">Leggyakoribb számok</a></li>
+        <hr><li><a href="leghasszamok.html">Leghasonlóbb számok</a></li>
+        <hr><li><a href="leghosszabb.html">Leghosszabb sorozatok számsorokban</a></li>
+        <hr><li><a href="legkisebb.html">Legkisebb összegű számsorok</a></li>
+        <hr><li><a href="">Grafikonok</a></li>
+        <hr><li><a href="">Érdekes történetek</a></li><hr>
+    </ul>  
+</div>
 </body>
 </html>
