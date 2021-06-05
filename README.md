@@ -1,2 +1,2 @@
 # lottoprojekt
-https://adammorelli.github.io/lottoprojekt/lottoproject.html
+https://adammorelli.github.io/lottoprojekt/index.html
