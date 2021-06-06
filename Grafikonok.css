@@ -1,0 +1,16 @@
+#grafikon1{
+    height: 400px;
+    margin-left: 15%;
+    margin-top: 1%;
+    border: 1px solid grey;
+    border-radius: 30px;
+    box-shadow: black 6px 6px 10px 1px;
+}
+#grafikon2{
+    height: 400px;
+    margin-left: 10.5%;
+    border: 1px solid grey;
+    border-radius: 30px;
+    margin-top: 1%;
+    box-shadow: black 6px 6px 10px 1px;
+}
